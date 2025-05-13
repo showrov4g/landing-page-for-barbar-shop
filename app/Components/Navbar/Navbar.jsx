@@ -20,11 +20,11 @@ const Navbar = () => {
                 <Image className="h-9 w-9" alt="dummyLogoColored" src={assets.logo} ></Image>
 
 
-                <ul className="md:flex hidden items-center gap-10">
-                    <li><a className="hover:text-gray-500/80 transition" href="#">Home</a></li>
-                    <li><a className="hover:text-gray-500/80 transition" href="#">Services</a></li>
-                    <li><a className="hover:text-gray-500/80 transition" href="#">Portfolio</a></li>
-                    <li><a className="hover:text-gray-500/80 transition" href="#">Pricing</a></li>
+                <ul className="md:flex hidden items-center gap-10 text-white">
+                    <li><a className="hover:text-gray-500 transition" href="#">Home</a></li>
+                    <li><a className="hover:text-gray-500 transition" href="#">Services</a></li>
+                    <li><a className="hover:text-gray-500 transition" href="#">Portfolio</a></li>
+                    <li><a className="hover:text-gray-500 transition" href="#">Pricing</a></li>
                 </ul>
 
                 <button type="button" className="bg-white text-gray-600 border border-gray-300 md:inline hidden text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full">
